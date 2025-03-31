@@ -81,7 +81,7 @@ public class ImageHandling {
 		
 		Thread.sleep(2000);
 		
-		js.executeAsyncScript("window.scrollTo(0,0);");
+		js.executeScript("window.scrollTo(0,0);");
 	}
 
 
